@@ -70,22 +70,7 @@ Crawling → Indexing → Query Processing → Ranking → Retrieval → Display
 
 ---
 
-## 📊 Visual Flow (Mermaid Diagram)
 
-```mermaid
-sequenceDiagram
-    participant User as User
-    participant Search as Search Engine
-    participant Web as Web Pages
-
-    User->>Search: Enter Search Query
-    Search->>Search: Process Query (keywords, intent)
-    Search->>Search: Retrieve Relevant Pages from Index
-    Search->>User: Display Ranked Results (SERP)
-    User->>Web: Click Result → Visit Website
-```
-
----
 
 ## ⚠️ Key Concepts
 - **Crawler/Bot** → Automatically scans web pages.  
